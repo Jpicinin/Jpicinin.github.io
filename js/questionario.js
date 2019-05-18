@@ -172,22 +172,21 @@ function anterior() {
     if (n - 1 >= 0) {
         if (rb1.checked) {
             questionario[n].resposta = 0;
-            atualizaQuestionario(-1);
+            //atualizaQuestionario(-1);
         }
         else if (rb2.checked) {
             questionario[n].resposta = 1;
-            atualizaQuestionario(-1);
+            //atualizaQuestionario(-1);
         }
         else if (rb3.checked) {
             questionario[n].resposta = 2;
-            atualizaQuestionario(-1);
+            //atualizaQuestionario(-1);
         }
         else if (rb4.checked) {
             questionario[n].resposta = 3;
-            atualizaQuestionario(-1);
+            //atualizaQuestionario(-1);
         }
-        else
-            alert('Selecione uma Opção!!!');
+        atualizaQuestionario(-1);
     }
 }
 function atualizaQuestionario(d) {
