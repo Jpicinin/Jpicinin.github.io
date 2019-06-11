@@ -36,18 +36,32 @@
                     <li class="nav-item active">
                         <a class="nav-link" href="questionario.html">Questinonário</a>
                     </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Temperamentos</a>
-                        <div class="dropdown-menu" aria-labelledby="dropdown03">
-                            <a class="dropdown-item" href="subviews/sanguineo.html">Sanguíneo</a>
-                            <a class="dropdown-item" href="subviews/colerico.html">Colérico</a>
-                            <a class="dropdown-item" href="subviews/melancolico.html">Melancólico</a>
-                            <a class="dropdown-item" href="subviews/fleumatico.html">Fleumático</a>
-                        </div>
+                    <!--Pouco otimizado partir daqui-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="subviews/sanguineo.html">Sanguíneo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../sobre.html">Sobre</a>
+                        <a class="nav-link" href="subviews/colerico.html">Colérico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="subviews/melancolico.html">Melancólico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="subviews/fleumatico.html">Fleumático</a>
+                    </li>
+                    <!--
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true"
+                  aria-expanded="false">Temperamentos</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown03">
+                  <a class="dropdown-item" href="subviews/sanguineo.html">Sanguíneo</a>
+                  <a class="dropdown-item" href="subviews/colerico.html">Colérico</a>
+                  <a class="dropdown-item" href="subviews/melancolico.html">Melancólico</a>
+                  <a class="dropdown-item" href="subviews/fleumatico.html">Fleumático</a>
+                </div>
+              </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="sobre.html">Sobre</a>
                     </li>
                 </ul>
             </div>
@@ -97,7 +111,7 @@
                         </div>
                     </form>
 
-                </div>
+                </div class="container">
 
                 <!--Novo-->
                 <canvas id="horizontalBar"></canvas>
@@ -109,8 +123,15 @@
         <script src="libs/jquery-3.4.1.min.js"></script>
         <script src="libs/popper.min.js"></script>
         <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+
         <script src="libs/grafico/mdb.min.js"></script>
+        <!-- <script src="libs/canvasjs/jquery.canvasjs.min.js"></script>-->
+        <!--<script src="libs/googleChart/loader.js"></script>-->
         <script src="js/questionario.js"></script>
+
+
+
+
 </body>
 
 </html>
