@@ -33,7 +33,7 @@ footer .container p
 body
 {
     background-image: url("../imagem/backgroud.jpg");
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
