@@ -113,6 +113,11 @@ function geraGrafico() {
     //x.style.display = "block";
     x.style.display = "none";
     n = 0;
+    /*$('#rodapeQuest').css(
+        {
+            'max-height': '5%',
+        }
+    );*/
 }
 
 
