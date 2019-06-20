@@ -30,12 +30,23 @@ footer .container p
 }
 
 /*--------------------------------------body----------------------------------------------*/
+/*html 
+{
+    background: url("../imagem/backgroud.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center top;
+}*/
 body
 {
+    
     background-image: url("../imagem/backgroud.jpg");
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
 }
 /*--------------------------------------Questinário---------------------------------------*/
 
