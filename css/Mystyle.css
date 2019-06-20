@@ -29,7 +29,10 @@ footer .container p
 /*--------------------------------------body----------------------------------------------*/
 body
 {
-    background-color: white;
+    background-image: url("../imagem/backgroud.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 /*--------------------------------------Questinário---------------------------------------*/
 
