@@ -1,4 +1,5 @@
-.parallax {
+.parallax 
+{
     background-image: url('../imagem/templo.jpg');
     min-height: 15rem;
     background-attachment: fixed;
@@ -8,14 +9,16 @@
     background-size: cover;
 }
 
-.zoom {
+.zoom 
+{
     /*padding: 50px;*/
     transition: transform .2s;
     /* Animation */
     margin: 0 auto;
 }
 
-.zoom:hover {
+.zoom:hover 
+{
     transform: scale(1.04);
     /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
@@ -36,22 +39,26 @@ body
 }
 /*--------------------------------------Questinário---------------------------------------*/
 
-div.form {
+div.form 
+{
     display: block;
     text-align: center;
 }
 
-form {
+form 
+{
     display: inline-block;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
 }
 
-#formquest {
+#formquest 
+{
     margin-top: 2rem;
 }
 
-#botoesForm {
+#botoesForm 
+{
     margin-top: 2rem;
 }
