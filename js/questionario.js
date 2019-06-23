@@ -32,26 +32,28 @@ class Resposta {
 }
 let questionario = [];
 let n = 0;
-questionario.push(new Resposta("Comunicativo", "Energético", "Habilidoso", "Calmo"));
-questionario.push(new Resposta("Pusilânime(Tolerante ao Erro)", "Iracundo(colérico, Furioso)", "Egoísta", "Calculista"));
-questionario.push(new Resposta("Destacado", "Resoluto(corajoso, decidido)", "Minucioso", "Tranquilo"));
-questionario.push(new Resposta("Volúvel(inconstante, instável)", "Sarcástico", "Amuado", "Temeroso(tem medo)"));
-questionario.push(new Resposta("Entusiasta(admirador alto grau)", "Independente", "Sensível", "Cumpridor"));
+questionario.push(new Resposta("Bom Companheiro", "Audacioso", "Sensível", "Bom-Humorado"));
+questionario.push(new Resposta("Inseguro", "Astucioso", "Crítico", "Desmotivado"));
+questionario.push(new Resposta("Simpático", "Líder", "Fiel", "Diplomata"));
+questionario.push(new Resposta("Impulsivo", "Insensível", "Antissocial", "Introvertido"));
+questionario.push(new Resposta("Afável", "Eficiente", "Idealista", "Líder"));
 
-questionario.push(new Resposta("Indisciplinado", "Impaciente", "Pessimista", "Indeciso"));
-questionario.push(new Resposta("Afável(amável, delicado, meigo)", "Otimista", "Perfeccionista", "Eficiente"));
-questionario.push(new Resposta("Impulsivo", "Prepotente(abusa da autoridade)", "Teórico(pouco senso prático)", "Contemplativo"));
-questionario.push(new Resposta("Simpático", "Prático", "Esteta(aprecia a belesa, a arte)", "Conservador"));
-questionario.push(new Resposta("Inseguro", "Intolerante", "Confuso", "Desconfiado"));
+questionario.push(new Resposta("Indisciplinado", "Vaidade", "Amuado", "Pretencioso"));
+questionario.push(new Resposta("Entusiasta", "Prático", "Esteta", "Prático"));
+questionario.push(new Resposta("Barulhento", "Raivoso", "Pessimista", "Provocador"));
+questionario.push(new Resposta("Compreensivo", "Energético", "Perfeccionista", "Conservador"));
+questionario.push(new Resposta("Exagerado", "Sarcástico", "Teórico", "Desconfiado"));
 
-questionario.push(new Resposta("Bom Companheiro", "Eficiente", "Idealista", "Prático"));
-questionario.push(new Resposta("Egocêntrico", "Vaidoso", "Anti-social", "Pretensioso"));
-questionario.push(new Resposta("Compreensivo", "Decidido", "Leal", "Líder"));
-questionario.push(new Resposta("Barulhento", "Auto-Suficiente", "Crítico", "Introvertido"));
-questionario.push(new Resposta("Crédulo", "Líder", "Decidido", "Diplomata(hábil nos negócios)"));
+questionario.push(new Resposta("Crédulo", "Resoluto", "Dedicado", "Eficiente"));
+questionario.push(new Resposta("Medroso", "Impaciente", "Vingativo", "Indeciso"));
+questionario.push(new Resposta("Comunicativo", "Independente", "Leal", "Tranquilo"));
+questionario.push(new Resposta("Volúvel", "Prepotente", "Egoísta", "Calculista"));
+questionario.push(new Resposta("Destacado", "Otimista", "Inflexivel", "Calmo"));
 
-questionario.push(new Resposta("Exagerado", "Audacioso", "Vingativo", "Bem-Humorado"));
+/*
+questionario.push(new Resposta("Exagerado", "Intolerante", "Vingativo", "Bem-Humorado"));
 questionario.push(new Resposta("Medroso", "Insensível", "Inflexível", "Desmotivado"));
+*/
 
 function mostrar() {
     let s = '';
