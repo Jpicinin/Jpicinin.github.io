@@ -129,7 +129,7 @@ function proximo() {
     let rb3 = document.getElementById("exampleRadios3");
     let rb4 = document.getElementById("exampleRadios4");
     let lbl = document.getElementById("tituloquestionario");
-    if (n === 16) {
+    if (n === questionario.length-1) {
         if (rb1.checked) {
             questionario[n].resposta = 0;
             geraGrafico();

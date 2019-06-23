@@ -4,6 +4,7 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
+
         /*{
             "name": "Launch localhost",
             "type": "chrome",
@@ -12,10 +13,10 @@
             "webRoot": "${workspaceFolder}/wwwroot"
         },*/
         {
-            "name": "Launch teste.html",
+            "name": "Launch questionario.html",
             "type": "chrome",
             "request": "launch",
-            "file": "${workspaceFolder}/teste.html"
+            "file": "${workspaceFolder}/questionario.html"
         },
     ]
 }
