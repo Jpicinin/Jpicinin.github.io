@@ -39,7 +39,7 @@ questionario.push(new Resposta("Impulsivo", "Insensível", "Antissocial", "Intro
 questionario.push(new Resposta("Afável", "Eficiente", "Idealista", "Líder"));
 
 questionario.push(new Resposta("Indisciplinado", "Vaidade", "Amuado", "Pretencioso"));
-questionario.push(new Resposta("Entusiasta", "Prático", "Esteta", "Prático"));
+questionario.push(new Resposta("Entusiasta", "Prático", "Esteta", "Atencioso"));
 questionario.push(new Resposta("Barulhento", "Raivoso", "Pessimista", "Provocador"));
 questionario.push(new Resposta("Compreensivo", "Energético", "Perfeccionista", "Conservador"));
 questionario.push(new Resposta("Exagerado", "Sarcástico", "Teórico", "Desconfiado"));
