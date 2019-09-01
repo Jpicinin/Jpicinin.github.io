@@ -85,7 +85,7 @@ function geraGrafico() {
     new Chart(document.getElementById("horizontalBar"), {
         "type": "horizontalBar",
         "data": {
-            "labels": ["Sanguíneo", "Colérico", "Melancólico", "Fleumático"],
+            "labels": ["Sanguíneo", "Nervoso", "Bilioso", "Linfático"],
             "datasets": [{
                 "label": "Percentual em Temperamento",
                 "data": [p[0], p[1], p[2], p[3]],
